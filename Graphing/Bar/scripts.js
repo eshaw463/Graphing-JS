@@ -35,4 +35,3 @@ var barChart = new Chart(canvasElement, config);
 }
 )();
 
-

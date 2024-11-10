@@ -24,7 +24,6 @@
 // GAUGE
     // % opens/ non-opens
         // % opens in a location
-        // % opens in a browser
 
 // WORLD
     // num opens
