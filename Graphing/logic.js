@@ -22,13 +22,13 @@
             // all/ all (bc why not)
 
 // GAUGE
-    // % opens/ % non-opens
+    // % opens/ non-opens
         // % opens in a location
         // % opens in a browser
 
 // WORLD
     // num opens
-    // most pop browser
+    // most popular browser
     // avg popular time
 
 
@@ -45,3 +45,24 @@
     
     // LINE, PIE, BAR are all set up to "receive data"
     // Gauge & World can't
+
+    // need a hard coded value of how many emails were sent out
+
+
+
+    // if we have a dataset, we can get every array needed like this
+
+    let numOpens = 3; // number of entries in the dataset
+    let numTotal = 30; // total number of emails sent out
+    let numUnopened = numTotal - numOpens;
+
+    let countryLoc = ["US", "Mexico", "France"];
+    let cityLoc = ["Madison", "Mexico City", "Paris"];
+    let browsers = ["Chrome", "Chrome", "Firefox"];
+    let times = ["1 AM", "2 PM", "4 PM"];
+    let numberOpensPerAcc = [1, 1, 2];
+
+    // EX: Gauge: %
+    let barA = numOpens;
+    let barB = numUnopened;
+
